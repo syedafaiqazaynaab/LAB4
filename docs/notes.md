@@ -4,7 +4,7 @@
 
 | Feature | pip | venv | Conda |
 |---|---|---|---|
-| Purpose | Installs Python packages | Creates an isolated Python environment | Manages environments and packages |
+| Purpose | Installs Python packages | Creates an isolated Python environment | Manages environments and packages, including non-Python dependencies |
 | Main command | `pip install numpy` | `python -m venv venv` | `conda create --name demo python=3.11` |
 | Best use | Installing libraries | Keeping project dependencies separate | Managing environments and packages, including non-Python dependencies |
 
@@ -14,6 +14,4 @@ Google Colab is useful when I want to run notebooks online without installing Py
 
 ## 3. Python Version
 
-Record the Python version used in the Conda `demo` environment here:
-
-`Python version: __________________`
+Python version: 3.11.17 (Conda demo environment)
